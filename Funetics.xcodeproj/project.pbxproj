@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11905E4C2430BDD60062B978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11905E4B2430BDD60062B978 /* AppDelegate.swift */; };
+		11905E4E2430BDD60062B978 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11905E4D2430BDD60062B978 /* SceneDelegate.swift */; };
+		11905E512430BDD60062B978 /* Funetics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11905E4F2430BDD60062B978 /* Funetics.xcdatamodeld */; };
+		11905E532430BDD60062B978 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11905E522430BDD60062B978 /* ContentView.swift */; };
+		11905E552430BDD70062B978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11905E542430BDD70062B978 /* Assets.xcassets */; };
+		11905E582430BDD70062B978 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11905E572430BDD70062B978 /* Preview Assets.xcassets */; };
+		11905E5B2430BDD70062B978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11905E592430BDD70062B978 /* LaunchScreen.storyboard */; };
+		11905E662430BDD70062B978 /* FuneticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11905E652430BDD70062B978 /* FuneticsTests.swift */; };
+		11905E712430BDD70062B978 /* FuneticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11905E702430BDD70062B978 /* FuneticsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11905E622430BDD70062B978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11905E402430BDD60062B978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11905E472430BDD60062B978;
+			remoteInfo = Funetics;
+		};
+		11905E6D2430BDD70062B978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11905E402430BDD60062B978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11905E472430BDD60062B978;
+			remoteInfo = Funetics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11905E482430BDD60062B978 /* Funetics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Funetics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11905E4B2430BDD60062B978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11905E4D2430BDD60062B978 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11905E502430BDD60062B978 /* Funetics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Funetics.xcdatamodel; sourceTree = "<group>"; };
+		11905E522430BDD60062B978 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11905E542430BDD70062B978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11905E572430BDD70062B978 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11905E5A2430BDD70062B978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11905E5C2430BDD70062B978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11905E612430BDD70062B978 /* FuneticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuneticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11905E652430BDD70062B978 /* FuneticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuneticsTests.swift; sourceTree = "<group>"; };
+		11905E672430BDD70062B978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11905E6C2430BDD70062B978 /* FuneticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuneticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11905E702430BDD70062B978 /* FuneticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuneticsUITests.swift; sourceTree = "<group>"; };
+		11905E722430BDD70062B978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11905E452430BDD60062B978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11905E5E2430BDD70062B978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11905E692430BDD70062B978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11905E3F2430BDD60062B978 = {
+			isa = PBXGroup;
+			children = (
+				11905E4A2430BDD60062B978 /* Funetics */,
+				11905E642430BDD70062B978 /* FuneticsTests */,
+				11905E6F2430BDD70062B978 /* FuneticsUITests */,
+				11905E492430BDD60062B978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11905E492430BDD60062B978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11905E482430BDD60062B978 /* Funetics.app */,
+				11905E612430BDD70062B978 /* FuneticsTests.xctest */,
+				11905E6C2430BDD70062B978 /* FuneticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11905E4A2430BDD60062B978 /* Funetics */ = {
+			isa = PBXGroup;
+			children = (
+				11905E4B2430BDD60062B978 /* AppDelegate.swift */,
+				11905E4D2430BDD60062B978 /* SceneDelegate.swift */,
+				11905E522430BDD60062B978 /* ContentView.swift */,
+				11905E542430BDD70062B978 /* Assets.xcassets */,
+				11905E592430BDD70062B978 /* LaunchScreen.storyboard */,
+				11905E5C2430BDD70062B978 /* Info.plist */,
+				11905E4F2430BDD60062B978 /* Funetics.xcdatamodeld */,
+				11905E562430BDD70062B978 /* Preview Content */,
+			);
+			path = Funetics;
+			sourceTree = "<group>";
+		};
+		11905E562430BDD70062B978 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11905E572430BDD70062B978 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11905E642430BDD70062B978 /* FuneticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				11905E652430BDD70062B978 /* FuneticsTests.swift */,
+				11905E672430BDD70062B978 /* Info.plist */,
+			);
+			path = FuneticsTests;
+			sourceTree = "<group>";
+		};
+		11905E6F2430BDD70062B978 /* FuneticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11905E702430BDD70062B978 /* FuneticsUITests.swift */,
+				11905E722430BDD70062B978 /* Info.plist */,
+			);
+			path = FuneticsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11905E472430BDD60062B978 /* Funetics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11905E752430BDD70062B978 /* Build configuration list for PBXNativeTarget "Funetics" */;
+			buildPhases = (
+				11905E442430BDD60062B978 /* Sources */,
+				11905E452430BDD60062B978 /* Frameworks */,
+				11905E462430BDD60062B978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Funetics;
+			productName = Funetics;
+			productReference = 11905E482430BDD60062B978 /* Funetics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11905E602430BDD70062B978 /* FuneticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11905E782430BDD70062B978 /* Build configuration list for PBXNativeTarget "FuneticsTests" */;
+			buildPhases = (
+				11905E5D2430BDD70062B978 /* Sources */,
+				11905E5E2430BDD70062B978 /* Frameworks */,
+				11905E5F2430BDD70062B978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11905E632430BDD70062B978 /* PBXTargetDependency */,
+			);
+			name = FuneticsTests;
+			productName = FuneticsTests;
+			productReference = 11905E612430BDD70062B978 /* FuneticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11905E6B2430BDD70062B978 /* FuneticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11905E7B2430BDD70062B978 /* Build configuration list for PBXNativeTarget "FuneticsUITests" */;
+			buildPhases = (
+				11905E682430BDD70062B978 /* Sources */,
+				11905E692430BDD70062B978 /* Frameworks */,
+				11905E6A2430BDD70062B978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11905E6E2430BDD70062B978 /* PBXTargetDependency */,
+			);
+			name = FuneticsUITests;
+			productName = FuneticsUITests;
+			productReference = 11905E6C2430BDD70062B978 /* FuneticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11905E402430BDD60062B978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Tanay Nistala";
+				TargetAttributes = {
+					11905E472430BDD60062B978 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					11905E602430BDD70062B978 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 11905E472430BDD60062B978;
+					};
+					11905E6B2430BDD70062B978 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 11905E472430BDD60062B978;
+					};
+				};
+			};
+			buildConfigurationList = 11905E432430BDD60062B978 /* Build configuration list for PBXProject "Funetics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11905E3F2430BDD60062B978;
+			productRefGroup = 11905E492430BDD60062B978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11905E472430BDD60062B978 /* Funetics */,
+				11905E602430BDD70062B978 /* FuneticsTests */,
+				11905E6B2430BDD70062B978 /* FuneticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11905E462430BDD60062B978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11905E5B2430BDD70062B978 /* LaunchScreen.storyboard in Resources */,
+				11905E582430BDD70062B978 /* Preview Assets.xcassets in Resources */,
+				11905E552430BDD70062B978 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11905E5F2430BDD70062B978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11905E6A2430BDD70062B978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11905E442430BDD60062B978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11905E4C2430BDD60062B978 /* AppDelegate.swift in Sources */,
+				11905E4E2430BDD60062B978 /* SceneDelegate.swift in Sources */,
+				11905E532430BDD60062B978 /* ContentView.swift in Sources */,
+				11905E512430BDD60062B978 /* Funetics.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11905E5D2430BDD70062B978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11905E662430BDD70062B978 /* FuneticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11905E682430BDD70062B978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11905E712430BDD70062B978 /* FuneticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11905E632430BDD70062B978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11905E472430BDD60062B978 /* Funetics */;
+			targetProxy = 11905E622430BDD70062B978 /* PBXContainerItemProxy */;
+		};
+		11905E6E2430BDD70062B978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11905E472430BDD60062B978 /* Funetics */;
+			targetProxy = 11905E6D2430BDD70062B978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11905E592430BDD70062B978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11905E5A2430BDD70062B978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11905E732430BDD70062B978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11905E742430BDD70062B978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11905E762430BDD70062B978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Funetics/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Funetics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaynistala.Funetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11905E772430BDD70062B978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Funetics/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Funetics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaynistala.Funetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11905E792430BDD70062B978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FuneticsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaynistala.FuneticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Funetics.app/Funetics";
+			};
+			name = Debug;
+		};
+		11905E7A2430BDD70062B978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FuneticsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaynistala.FuneticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Funetics.app/Funetics";
+			};
+			name = Release;
+		};
+		11905E7C2430BDD70062B978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FuneticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaynistala.FuneticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Funetics;
+			};
+			name = Debug;
+		};
+		11905E7D2430BDD70062B978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FuneticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaynistala.FuneticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Funetics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11905E432430BDD60062B978 /* Build configuration list for PBXProject "Funetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11905E732430BDD70062B978 /* Debug */,
+				11905E742430BDD70062B978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11905E752430BDD70062B978 /* Build configuration list for PBXNativeTarget "Funetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11905E762430BDD70062B978 /* Debug */,
+				11905E772430BDD70062B978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11905E782430BDD70062B978 /* Build configuration list for PBXNativeTarget "FuneticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11905E792430BDD70062B978 /* Debug */,
+				11905E7A2430BDD70062B978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11905E7B2430BDD70062B978 /* Build configuration list for PBXNativeTarget "FuneticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11905E7C2430BDD70062B978 /* Debug */,
+				11905E7D2430BDD70062B978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		11905E4F2430BDD60062B978 /* Funetics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				11905E502430BDD60062B978 /* Funetics.xcdatamodel */,
+			);
+			currentVersion = 11905E502430BDD60062B978 /* Funetics.xcdatamodel */;
+			path = Funetics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11905E402430BDD60062B978 /* Project object */;
+}
