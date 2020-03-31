@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1179959B2430BE4D00AE4C08 /* SyllableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117995962430BE4D00AE4C08 /* SyllableRow.swift */; };
+		1179959C2430BE4D00AE4C08 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117995972430BE4D00AE4C08 /* QuestionView.swift */; };
+		1179959E2430BE4D00AE4C08 /* Words.json in Resources */ = {isa = PBXBuildFile; fileRef = 117995992430BE4D00AE4C08 /* Words.json */; };
+		1179959F2430BE4D00AE4C08 /* SyllableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179959A2430BE4D00AE4C08 /* SyllableList.swift */; };
 		11905E4C2430BDD60062B978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11905E4B2430BDD60062B978 /* AppDelegate.swift */; };
 		11905E4E2430BDD60062B978 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11905E4D2430BDD60062B978 /* SceneDelegate.swift */; };
 		11905E512430BDD60062B978 /* Funetics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11905E4F2430BDD60062B978 /* Funetics.xcdatamodeld */; };
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		115B66C8243234060051B50D /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		117995962430BE4D00AE4C08 /* SyllableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyllableRow.swift; sourceTree = "<group>"; };
+		117995972430BE4D00AE4C08 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		117995992430BE4D00AE4C08 /* Words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Words.json; sourceTree = "<group>"; };
+		1179959A2430BE4D00AE4C08 /* SyllableList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyllableList.swift; sourceTree = "<group>"; };
 		11905E482430BDD60062B978 /* Funetics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Funetics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11905E4B2430BDD60062B978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11905E4D2430BDD60062B978 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,11 +112,16 @@
 			children = (
 				11905E4B2430BDD60062B978 /* AppDelegate.swift */,
 				11905E4D2430BDD60062B978 /* SceneDelegate.swift */,
+				117995972430BE4D00AE4C08 /* QuestionView.swift */,
+				1179959A2430BE4D00AE4C08 /* SyllableList.swift */,
+				117995962430BE4D00AE4C08 /* SyllableRow.swift */,
+				117995992430BE4D00AE4C08 /* Words.json */,
 				11905E522430BDD60062B978 /* ContentView.swift */,
 				11905E542430BDD70062B978 /* Assets.xcassets */,
 				11905E592430BDD70062B978 /* LaunchScreen.storyboard */,
 				11905E5C2430BDD70062B978 /* Info.plist */,
 				11905E4F2430BDD60062B978 /* Funetics.xcdatamodeld */,
+				115B66C8243234060051B50D /* audio.mp3 */,
 				11905E562430BDD70062B978 /* Preview Content */,
 			);
 			path = Funetics;
@@ -244,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11905E5B2430BDD70062B978 /* LaunchScreen.storyboard in Resources */,
+				1179959E2430BE4D00AE4C08 /* Words.json in Resources */,
 				11905E582430BDD70062B978 /* Preview Assets.xcassets in Resources */,
 				11905E552430BDD70062B978 /* Assets.xcassets in Resources */,
 			);
@@ -271,9 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				11905E4C2430BDD60062B978 /* AppDelegate.swift in Sources */,
+				1179959F2430BE4D00AE4C08 /* SyllableList.swift in Sources */,
 				11905E4E2430BDD60062B978 /* SceneDelegate.swift in Sources */,
 				11905E532430BDD60062B978 /* ContentView.swift in Sources */,
 				11905E512430BDD60062B978 /* Funetics.xcdatamodeld in Sources */,
+				1179959C2430BE4D00AE4C08 /* QuestionView.swift in Sources */,
+				1179959B2430BE4D00AE4C08 /* SyllableRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

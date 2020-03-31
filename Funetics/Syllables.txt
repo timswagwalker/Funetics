@@ -1,0 +1,5 @@
+short a
+short e
+short i
+short o
+short u
