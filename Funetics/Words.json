@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "word": "cat",
+        "question": "c_t",
+        "option_a": "a",
+        "option_b": "e",
+        "option_c": "i",
+        "option_d": "o",
+        "correct_option": "A"
+    },
+    {
+        "id": 2,
+        "word": "hot",
+        "question": "h_t",
+        "option_a": "a",
+        "option_b": "e",
+        "option_c": "i",
+        "option_d": "o",
+        "correct_option": "D"
+    },
+    {
+        "id": 3,
+        "word": "pig",
+        "question": "p_g",
+        "option_a": "a",
+        "option_b": "e",
+        "option_c": "i",
+        "option_d": "o",
+        "correct_option": "C"
+    }
+]
