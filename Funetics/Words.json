@@ -17,7 +17,7 @@
         "option_b": "e",
         "option_c": "i",
         "option_d": "o",
-        "correct_option": "D"
+        "correct_option": "A"
     },
     {
         "id": 3,
@@ -28,5 +28,15 @@
         "option_c": "i",
         "option_d": "o",
         "correct_option": "C"
+    },
+    {
+        "id": 4,
+        "word": "bed",
+        "question": "b_d",
+        "option_a": "ai",
+        "option_b": "e",
+        "option_c": "o",
+        "option_d": "u",
+        "correct_option": "B"
     }
 ]
