@@ -8,7 +8,7 @@
 
 import SwiftUI
 import Combine
-import AVFoundation
+import URLImage
 
 struct QuestionView: View {
     @State var current_word: Word
@@ -60,23 +60,15 @@ struct QuestionView: View {
                                 .fontWeight(.bold)
                                 .foregroundColor(Color("Foreground"))
                                 .font(.system(size: 48))
-                            Button(action: {
-                                let path = Bundle.main.path(forResource: "audio", ofType:"mp3")!
-                                let url = URL(fileURLWithPath: path)
 
-                                do {
-                                    print("Sound Playing")
-                                    self.sound = try AVAudioPlayer(contentsOf: url)
-                                    self.sound?.play()
-                                } catch {
-                                    // couldn't load file :(
-                                }}) {
-                                Text("Hello")
-                            }
-                            .overlay(
-                            Circle().stroke(Color.white, lineWidth: 0))
+                            URLImage("url")
+                                .frame(width: 128.0, height: 128.0)
+                                .clipShape(Circle())
+                                .overlay(
+                                    Circle().stroke(Color.white, lineWidth: 4))
                                 .shadow(radius: 10)
                                 .offset(y: -16)
+                            }
 
                         }
                         .offset(y: 64)

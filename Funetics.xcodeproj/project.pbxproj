@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,8 @@
 		11905E5B2430BDD70062B978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11905E592430BDD70062B978 /* LaunchScreen.storyboard */; };
 		11905E662430BDD70062B978 /* FuneticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11905E652430BDD70062B978 /* FuneticsTests.swift */; };
 		11905E712430BDD70062B978 /* FuneticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11905E702430BDD70062B978 /* FuneticsUITests.swift */; };
+		11EAED222433504E004EABD8 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EAED212433504E004EABD8 /* cat.png */; };
+		11EAED26243352BA004EABD8 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 11EAED25243352BA004EABD8 /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,7 @@
 		11905E6C2430BDD70062B978 /* FuneticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuneticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11905E702430BDD70062B978 /* FuneticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuneticsUITests.swift; sourceTree = "<group>"; };
 		11905E722430BDD70062B978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EAED212433504E004EABD8 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11EAED26243352BA004EABD8 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +94,7 @@
 		11905E3F2430BDD60062B978 = {
 			isa = PBXGroup;
 			children = (
+				11EAED2324335058004EABD8 /* Images */,
 				11905E4A2430BDD60062B978 /* Funetics */,
 				11905E642430BDD70062B978 /* FuneticsTests */,
 				11905E6F2430BDD70062B978 /* FuneticsUITests */,
@@ -153,6 +158,14 @@
 			path = FuneticsUITests;
 			sourceTree = "<group>";
 		};
+		11EAED2324335058004EABD8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				11EAED212433504E004EABD8 /* cat.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,6 +182,9 @@
 			dependencies = (
 			);
 			name = Funetics;
+			packageProductDependencies = (
+				11EAED25243352BA004EABD8 /* URLImage */,
+			);
 			productName = Funetics;
 			productReference = 11905E482430BDD60062B978 /* Funetics.app */;
 			productType = "com.apple.product-type.application";
@@ -241,6 +257,9 @@
 				Base,
 			);
 			mainGroup = 11905E3F2430BDD60062B978;
+			packageReferences = (
+				11EAED24243352BA004EABD8 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 11905E492430BDD60062B978 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11EAED222433504E004EABD8 /* cat.png in Resources */,
 				11905E5B2430BDD70062B978 /* LaunchScreen.storyboard in Resources */,
 				1179959E2430BE4D00AE4C08 /* Words.json in Resources */,
 				11905E582430BDD70062B978 /* Preview Assets.xcassets in Resources */,
@@ -610,6 +630,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11EAED24243352BA004EABD8 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.13;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11EAED25243352BA004EABD8 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11EAED24243352BA004EABD8 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		11905E4F2430BDD60062B978 /* Funetics.xcdatamodeld */ = {
