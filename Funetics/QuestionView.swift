@@ -23,9 +23,15 @@ struct QuestionView: View {
             UserDefaults.standard.set(UserDefaults.standard.integer(forKey: "correctAnswers") + 1, forKey: "correctAnswers")
             self.appdata.correct_answers += 1
             self.appdata.was_correct = true
+            self.appdata.was_time_up = false
+        } else if option == "time" {
+            print ("Time Up")
+            self.appdata.was_correct = false
+            self.appdata.was_time_up = true
         } else {
             print ("Wrong")
             self.appdata.was_correct = false
+            self.appdata.was_time_up = false
         }
         
         UserDefaults.standard.set(UserDefaults.standard.integer(forKey: "questionNum") + 1, forKey: "questionNum")
@@ -43,7 +49,7 @@ struct QuestionView: View {
             
             VStack {
                 Rectangle()
-                    .frame(height: 224)
+                    .frame(height: 244)
                     .foregroundColor(Color("Background"))
                     .shadow(color: Color("Dark Shadow"), radius: 8, x: 0, y: 8)
                     .padding(.bottom)
@@ -59,6 +65,7 @@ struct QuestionView: View {
                                 .font(.system(size: 48))
                             
                             ImageView(withURL: current_word.image_url)
+                            .frame(width: 144, height: 144)
                             .clipShape(Circle())
                             .overlay(
                                 Circle().stroke(Color.white, lineWidth: 4))
@@ -78,7 +85,7 @@ struct QuestionView: View {
                             .fontWeight(.bold)
                             .contentShape(
                                 RoundedRectangle(cornerRadius: 24))
-                                    .frame(width: 192.0, height: 192.0, alignment: .center)
+                                    .frame(width: 160.0, height: 160.0, alignment: .center)
                                     .background(Color.blue)
                                     .foregroundColor(.white)
                                     .cornerRadius(24)
@@ -89,7 +96,7 @@ struct QuestionView: View {
                         .fontWeight(.bold)
                         .contentShape(
                             RoundedRectangle(cornerRadius: 24))
-                                .frame(width: 192.0, height: 192.0, alignment: .center)
+                                .frame(width: 160.0, height: 160.0, alignment: .center)
                                 .background(Color.green)
                                 .foregroundColor(.white)
                                 .cornerRadius(24)
@@ -103,7 +110,7 @@ struct QuestionView: View {
                         .fontWeight(.bold)
                         .contentShape(
                             RoundedRectangle(cornerRadius: 24))
-                                .frame(width: 192.0, height: 192.0, alignment: .center)
+                                .frame(width: 160.0, height: 160.0, alignment: .center)
                                 .background(Color.red)
                                 .foregroundColor(.white)
                                 .cornerRadius(24)
@@ -114,7 +121,7 @@ struct QuestionView: View {
                         .fontWeight(.bold)
                         .contentShape(
                             RoundedRectangle(cornerRadius: 24))
-                                .frame(width: 192.0, height: 192.0, alignment: .center)
+                                .frame(width: 160.0, height: 160.0, alignment: .center)
                                 .background(Color.yellow)
                                 .foregroundColor(.white)
                                 .cornerRadius(24)
@@ -122,7 +129,7 @@ struct QuestionView: View {
                     }
                     .padding(.top, 4.0)
                 }
-                .offset(y: 48)
+                .offset(y: 64)
                 .padding(.bottom)
                 
     //            TextField("Enter Answer Here", text: $answer) {
@@ -160,8 +167,13 @@ struct QuestionView: View {
                                 if self.time > 0 {
                                     self.time -= 1
                                 }
+                                
+                                if self.time == 0 {
+                                    self.getAnswer(option: "time")
+                                }
                             }
                     )
+                    .offset(y: 32)
             }
         }
     }

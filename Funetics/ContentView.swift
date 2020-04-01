@@ -11,6 +11,7 @@ import Combine
 
 struct ContentView: View {
     @EnvironmentObject var appdata: AppData
+    let defaults = UserDefaults.standard
     
     var body: some View {
         NavigationView {
@@ -62,7 +63,7 @@ struct ContentView: View {
                     Text(self.appdata.current_question == self.appdata.words.count ? "No more questions for today." : "")
                         .foregroundColor(.red)
                     
-                    Text(self.appdata.current_question == 0 ? "" : "You got the last question \(self.appdata.was_correct ? "right!" : "wrong.")")
+                    Text(self.appdata.current_question == self.appdata.start_question ? "" : (self.appdata.was_time_up ? "You didn't get that question in time." : (self.appdata.was_correct ? "You got that question right!" : "You got that question wrong.")))
                         .foregroundColor(self.appdata.was_correct ? .green : .red)
                     
                     Divider()
@@ -72,7 +73,7 @@ struct ContentView: View {
                             .font(.title)
                         
                         RoundedRectangle(cornerRadius: 24)
-                        .frame(width: 364, height: 48)
+                        .frame(width: 336, height: 48)
                         .foregroundColor(Color("Background"))
                         .shadow(color: Color("Light Shadow"), radius: 8, x: -8, y: -8)
                         .shadow(color: Color("Dark Shadow"), radius: 8, x: 8, y: 8)
@@ -88,7 +89,7 @@ struct ContentView: View {
                         )
                         
                         RoundedRectangle(cornerRadius: 24)
-                        .frame(width: 364, height: 96)
+                        .frame(width: 336, height: 96)
                         .foregroundColor(Color("Background"))
                         .shadow(color: Color("Light Shadow"), radius: 8, x: -8, y: -8)
                         .shadow(color: Color("Dark Shadow"), radius: 8, x: 8, y: 8)
@@ -126,6 +127,26 @@ struct ContentView: View {
                         )
                     }
                     .padding(.vertical)
+                    
+                    Spacer()
+                    
+                    RoundedRectangle(cornerRadius: 16)
+                        .frame(width: 128, height: 32)
+                        .foregroundColor(Color("Background"))
+                        .shadow(color: Color("Light Shadow"), radius: 8, x: -4, y: -4)
+                        .shadow(color: Color("Dark Shadow"), radius: 8, x: 4, y: 4)
+                        .overlay(
+                            Button(action: {
+                                UserDefaults.standard.set(0, forKey: "questionNum")
+                                UserDefaults.standard.set(0, forKey: "correctAnswers")
+                            }) {
+                                Text("Reset Stats")
+                                    .foregroundColor(Color.red)
+                                    .bold()
+                            }
+                    )
+                    Text("This action cannot be undone.")
+                        .foregroundColor(Color.red)
                     
                     Spacer()
                 }
@@ -166,15 +187,18 @@ struct ContentView_Previews: PreviewProvider {
 class AppData: ObservableObject {
     let defaults = UserDefaults.standard
     
+    @Published var start_question = 0
     @Published var current_question = 0
     @Published var show_question = false
     @Published var was_correct = false
+    @Published var was_time_up = false
     @Published var correct_answers = 0
     @Published var words = [Word]()
     
     init(){
         load()
         
+        self.start_question = self.defaults.integer(forKey: "questionNum")
         self.current_question = self.defaults.integer(forKey: "questionNum")
         self.correct_answers = self.defaults.integer(forKey: "correctAnswers")
     }
