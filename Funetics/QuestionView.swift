@@ -8,13 +8,10 @@
 
 import SwiftUI
 import Combine
-import URLImage
 
 struct QuestionView: View {
     @State var current_word: Word
     @State var time = 10
-    
-    @State var sound: AVAudioPlayer!
     
     @EnvironmentObject var appdata: AppData
     @State private var show_modal: Bool = false
@@ -60,17 +57,13 @@ struct QuestionView: View {
                                 .fontWeight(.bold)
                                 .foregroundColor(Color("Foreground"))
                                 .font(.system(size: 48))
-
-                            URLImage("url")
-                                .frame(width: 128.0, height: 128.0)
-                                .clipShape(Circle())
-                                .overlay(
-                                    Circle().stroke(Color.white, lineWidth: 4))
-                                .shadow(radius: 10)
-                                .offset(y: -16)
+                            
+                            ImageView(withURL: current_word.image_url)
+                            .clipShape(Circle())
+                            .overlay(
+                                Circle().stroke(Color.white, lineWidth: 4))
+                            .shadow(radius: 10)
                             }
-
-                        }
                         .offset(y: 64)
                     )
                     .edgesIgnoringSafeArea(.top)
@@ -141,7 +134,7 @@ struct QuestionView: View {
 //                RoundedRectangle(cornerRadius: 24)
 //                    .frame(width: 300, height: 32)
 //
-//                    .foregroundColor(Color("Background"))
+                //           ()         .foregroundColor(Color("Background"))
 //                    .shadow(color: Color("Light Shadow"), radius: 8, x: -8, y: -8)
 //                    .shadow(color: Color("Dark Shadow"), radius: 8, x: 0, y: 8)
 //                    .overlay(

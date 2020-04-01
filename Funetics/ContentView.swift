@@ -180,7 +180,7 @@ class AppData: ObservableObject {
     }
     
     func load() {
-        let url = URL(string: "https://raw.githubusercontent.com/timswagwalker/Funetics/master/Funetics/Words.json")!
+        let url = URL(string: "https://raw.githubusercontent.com/timswagwalker/Funetics/master/Funetics/Words.json?token=AF6VHSWYIFDWTY2XK2S5TL26QNSAU")!
     
         URLSession.shared.dataTask(with: url) {(data,response,error) in
             do {
@@ -210,6 +210,7 @@ struct Word: Decodable, Identifiable {
     public var option_c: String
     public var option_d: String
     public var correct: String
+    public var image_url: String
     
     enum CodingKeys: String, CodingKey {
             case id = "id"
@@ -220,5 +221,6 @@ struct Word: Decodable, Identifiable {
             case option_c = "option_c"
             case option_d = "option_d"
             case correct = "correct_option"
+            case image_url = "image_url"
         }
 }
