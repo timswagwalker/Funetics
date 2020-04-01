@@ -8,7 +8,7 @@
         "option_c": "i",
         "option_d": "o",
         "correct_option": "A",
-        "image_url": "https://i.postimg.cc/R0y1j3df/Image-1.png"
+        "image_url": "https://i.postimg.cc/CMqWpnNG/Image-1.png"
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
         "option_c": "i",
         "option_d": "o",
         "correct_option": "A",
-        "image_url": "https://i.postimg.cc/QCkp9f3k/Image-2.png"
+        "image_url": "https://i.postimg.cc/65VgysFT/Image-2.png"
     },
     {
         "id": 3,
@@ -30,7 +30,7 @@
         "option_c": "i",
         "option_d": "o",
         "correct_option": "C",
-        "image_url": "https://i.postimg.cc/WzPG1QQ1/Image-3.png"
+        "image_url": "https://i.postimg.cc/3wNcSkND/Image-3.png"
     },
     {
         "id": 4,
@@ -41,17 +41,17 @@
         "option_c": "o",
         "option_d": "u",
         "correct_option": "B",
-        "image_url": "https://i.postimg.cc/VLm9QPq7/Image-4.png"
+        "image_url": "https://i.postimg.cc/7Zxczsy9/Image-4.png"
     },
     {
         "id": 5,
         "word": "chair",
-        "question": "ch__ir",
+        "question": "ch__r",
         "option_a": "ay",
         "option_b": "ae",
         "option_c": "ai",
         "option_d": "ei",
         "correct_option": "C",
-        "image_url": "https://i.postimg.cc/PfmbR5wp/Image-5.png"
+        "image_url": "https://i.postimg.cc/Z5VQx8bS/Image-5.png"
     }
 ]
