@@ -54,4 +54,16 @@
         "correct_option": "C",
         "image_url": "https://i.postimg.cc/Z5VQx8bS/Image-5.png"
     }
+    ,
+    {
+        "id": 6,
+        "word": "hair",
+        "question": "h__r",
+        "option_a": "ay",
+        "option_b": "ae",
+        "option_c": "ai",
+        "option_d": "ei",
+        "correct_option": "C",
+        "image_url": "https://i.postimg.cc/Z5VQx8bS/Image-5.png"
+    }
 ]
