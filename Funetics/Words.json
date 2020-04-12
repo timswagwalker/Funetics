@@ -8,7 +8,7 @@
         "option_c": "i",
         "option_d": "o",
         "correct_option": "A",
-        "image_url": "https://i.postimg.cc/CMqWpnNG/Image-1.png"
+        "image_url": "https://i.postimg.cc/05m72JFm/Funetics-Images-001.png"
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
         "option_c": "i",
         "option_d": "o",
         "correct_option": "A",
-        "image_url": "https://i.postimg.cc/65VgysFT/Image-2.png"
+        "image_url": "https://i.postimg.cc/pXJ8KM2L/Funetics-Images-002.png"
     },
     {
         "id": 3,
@@ -30,7 +30,7 @@
         "option_c": "i",
         "option_d": "o",
         "correct_option": "C",
-        "image_url": "https://i.postimg.cc/3wNcSkND/Image-3.png"
+        "image_url": "https://i.postimg.cc/bwYnTVJH/Funetics-Images-003.png"
     },
     {
         "id": 4,
@@ -41,7 +41,7 @@
         "option_c": "o",
         "option_d": "u",
         "correct_option": "B",
-        "image_url": "https://i.postimg.cc/7Zxczsy9/Image-4.png"
+        "image_url": "https://i.postimg.cc/pL0F1Q5N/Funetics-Images-004.png"
     },
     {
         "id": 5,
@@ -52,18 +52,171 @@
         "option_c": "ai",
         "option_d": "ei",
         "correct_option": "C",
-        "image_url": "https://i.postimg.cc/Z5VQx8bS/Image-5.png"
-    }
-    ,
+        "image_url": "https://i.postimg.cc/FK7Ltf0Y/Funetics-Images-005.png"
+    },
     {
         "id": 6,
-        "word": "hair",
-        "question": "h__r",
+        "word": "ear",
+        "question": "__r",
         "option_a": "ay",
         "option_b": "ae",
-        "option_c": "ai",
+        "option_c": "ea",
         "option_d": "ei",
+        "correct_option": "D",
+        "image_url": "https://i.postimg.cc/q7SCpkGj/Funetics-Images-006.png"
+    },
+    {
+        "id": 7,
+        "word": "bird",
+        "question": "b_rd",
+        "option_a": "a",
+        "option_b": "e",
+        "option_c": "i",
+        "option_d": "u",
         "correct_option": "C",
-        "image_url": "https://i.postimg.cc/Z5VQx8bS/Image-5.png"
+        "image_url": "https://i.postimg.cc/4dcHdrLZ/Funetics-Images-007.png"
+    },
+    {
+        "id": 8,
+        "word": "cup",
+        "question": "c_p",
+        "option_a": "a",
+        "option_b": "e",
+        "option_c": "o",
+        "option_d": "u",
+        "correct_option": "D",
+        "image_url": "https://i.postimg.cc/MH8MjdNB/Funetics-Images-008.png"
+    },
+    {
+        "id": 9,
+        "word": "pie",
+        "question": "p__",
+        "option_a": "ae",
+        "option_b": "ay",
+        "option_c": "ei",
+        "option_d": "ie",
+        "correct_option": "D",
+        "image_url": "https://i.postimg.cc/yxXJh0Cb/Funetics-Images-009.png"
+    },
+    {
+        "id": 10,
+        "word": "sun",
+        "question": "s_n",
+        "option_a": "a",
+        "option_b": "e",
+        "option_c": "o",
+        "option_d": "u",
+        "correct_option": "D",
+        "image_url": "https://i.postimg.cc/bYQ2jfS9/Funetics-Images-010.png"
+    },
+    {
+        "id": 11,
+        "word": "shoe",
+        "question": "sh__",
+        "option_a": "eu",
+        "option_b": "oe",
+        "option_c": "oo",
+        "option_d": "ou",
+        "correct_option": "B",
+        "image_url": "https://i.postimg.cc/pLd989Gs/Funetics-Images-011.png"
+    },
+    {
+        "id": 12,
+        "word": "moon",
+        "question": "m__n",
+        "option_a": "ao",
+        "option_b": "oo",
+        "option_c": "ou",
+        "option_d": "uu",
+        "correct_option": "B",
+        "image_url": "https://i.postimg.cc/bwFZRz4p/Funetics-Images-012.png"
+    },
+    {
+        "id": 13,
+        "word": "shirt",
+        "question": "sh_rt",
+        "option_a": "a",
+        "option_b": "e",
+        "option_c": "i",
+        "option_d": "u",
+        "correct_option": "C",
+        "image_url": "https://i.postimg.cc/k56B10d8/Funetics-Images-013.png"
+    },
+    {
+        "id": 14,
+        "word": "map",
+        "question": "m_p",
+        "option_a": "a",
+        "option_b": "e",
+        "option_c": "o",
+        "option_d": "u",
+        "correct_option": "A",
+        "image_url": "https://i.postimg.cc/hjVhgVvt/Funetics-Images-014.png"
+    },
+    {
+        "id": 15,
+        "word": "tooth",
+        "question": "t__th",
+        "option_a": "oo",
+        "option_b": "ou",
+        "option_c": "uu",
+        "option_d": "wo",
+        "correct_option": "A",
+        "image_url": "https://i.postimg.cc/wMHMB3Rc/Funetics-Images-015.png"
+    },
+    {
+        "id": 16,
+        "word": "dog",
+        "question": "d_g",
+        "option_a": "a",
+        "option_b": "e",
+        "option_c": "i",
+        "option_d": "o",
+        "correct_option": "D",
+        "image_url": "https://i.postimg.cc/Kcr4H7C9/Funetics-Images-016.png"
+    },
+    {
+        "id": 17,
+        "word": "crown",
+        "question": "cr__n",
+        "option_a": "au",
+        "option_b": "aw",
+        "option_c": "ou",
+        "option_d": "ow",
+        "correct_option": "D",
+        "image_url": "https://i.postimg.cc/sg82hTZ2/Funetics-Images-017.png"
+    },
+    {
+        "id": 18,
+        "word": "lamp",
+        "question": "l_mp",
+        "option_a": "a",
+        "option_b": "e",
+        "option_c": "i",
+        "option_d": "u",
+        "correct_option": "A",
+        "image_url": "https://i.postimg.cc/G2nhM9Kw/Funetics-Images-018.png"
+    },
+    {
+        "id": 19,
+        "word": "clock",
+        "question": "cl_ck",
+        "option_a": "a",
+        "option_b": "i",
+        "option_c": "o",
+        "option_d": "u",
+        "correct_option": "C",
+        "image_url": "https://i.postimg.cc/85dkxDXF/Funetics-Images-019.png"
+    },
+    {
+        "id": 20,
+        "word": "fan",
+        "question": "f_n",
+        "option_a": "a",
+        "option_b": "e",
+        "option_c": "i",
+        "option_d": "u",
+        "correct_option": "A",
+        "image_url": "https://i.postimg.cc/wM6xpPnw/Funetics-Images-020.png"
     }
 ]
