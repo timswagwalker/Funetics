@@ -48,7 +48,7 @@ struct QuestionView: View {
             
             VStack {
                 Rectangle()
-                    .frame(height: 244)
+                    .frame(height: 256)
                     .foregroundColor(Color("Background"))
                     .shadow(color: Color("Dark Shadow"), radius: 8, x: 0, y: 8)
                     .padding(.bottom)
@@ -57,11 +57,11 @@ struct QuestionView: View {
                             Text("Question \(String(current_word.id))")
                                 .fontWeight(.bold)
                                 .foregroundColor(Color("Foreground"))
-                                .font(.system(size: 24))
+                                .font(Font.custom("OpenDyslexic-Bold", size: 24))
                             Text(current_word.question)
                                 .fontWeight(.bold)
                                 .foregroundColor(Color("Foreground"))
-                                .font(.system(size: 48))
+                                .font(Font.custom("OpenDyslexic-Bold", size: 48))
                             
                             ImageView(withURL: current_word.image_url)
                             .frame(width: 144, height: 144)
@@ -69,8 +69,9 @@ struct QuestionView: View {
                             .overlay(
                                 Circle().stroke(Color.white, lineWidth: 4))
                             .shadow(radius: 10)
+                            .edgesIgnoringSafeArea(.top)
                             }
-                        .offset(y: 64)
+                        .offset(y: 32)
                     )
                     .edgesIgnoringSafeArea(.top)
                 
@@ -80,7 +81,7 @@ struct QuestionView: View {
                     HStack {
                         
                         Text(current_word.option_a)
-                            .font(.system(size: 64))
+                            .font(Font.custom("OpenDyslexic-Bold", size: 64))
                             .fontWeight(.bold)
                             .contentShape(
                                 RoundedRectangle(cornerRadius: 24))
@@ -91,7 +92,7 @@ struct QuestionView: View {
                             .onTapGesture {self.getAnswer(option: "A")}
                             
                         Text(current_word.option_b)
-                        .font(.system(size: 64))
+                        .font(Font.custom("OpenDyslexic-Bold", size: 64))
                         .fontWeight(.bold)
                         .contentShape(
                             RoundedRectangle(cornerRadius: 24))
@@ -105,7 +106,7 @@ struct QuestionView: View {
                     
                     HStack {
                         Text(current_word.option_c)
-                        .font(.system(size: 64))
+                        .font(Font.custom("OpenDyslexic-Bold", size: 64))
                         .fontWeight(.bold)
                         .contentShape(
                             RoundedRectangle(cornerRadius: 24))
@@ -116,7 +117,7 @@ struct QuestionView: View {
                         .onTapGesture {self.getAnswer(option: "C")}
                         
                         Text(current_word.option_d)
-                        .font(.system(size: 64))
+                        .font(Font.custom("OpenDyslexic-Bold", size: 64))
                         .fontWeight(.bold)
                         .contentShape(
                             RoundedRectangle(cornerRadius: 24))
