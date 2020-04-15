@@ -22,9 +22,16 @@ struct ContentView: View {
                     .edgesIgnoringSafeArea(.all)
                 
                 VStack {
-                    Text("Funetics")
-                        .font(.largeTitle)
-                        .bold()
+                    Group {
+                        Image("Logo")
+                            .resizable()
+                            .frame(width: 96, height: 96)
+                            .clipShape(RoundedRectangle(cornerRadius: 16))
+                            .rotationEffect(.degrees(-15))
+                        Text("Funetics")
+                            .font(Font.custom("OpenDyslexic-Bold", size: 48))
+                            .edgesIgnoringSafeArea(.bottom)
+                    }
                     
                     RoundedRectangle(cornerRadius: 24)
                             .frame(width: 300, height: 64)
@@ -58,19 +65,32 @@ struct ContentView: View {
                                 .sheet(isPresented: self.$appdata.show_question) {QuestionView(current_word: self.appdata.words[self.appdata.current_question])
                                 .environmentObject(self.appdata)}
                                 )
-                            .padding(.vertical, 24.0)
+                            .padding(.vertical)
                     
                     Text(self.appdata.current_question == self.appdata.words.count ? "No more questions for today." : "")
                         .foregroundColor(.red)
                     
-                    Text(self.appdata.current_question == self.appdata.start_question ? "" : (self.appdata.was_time_up ? "You didn't get that question in time." : (self.appdata.was_correct ? "You got that question right!" : "You got that question wrong.")))
-                        .foregroundColor(self.appdata.was_correct ? .green : .red)
+                    // NOTE TO SELF: make this an alert with the correct answer if wrong
+                    
+                    HStack {
+                        Image(systemName: self.appdata.current_question == self.appdata.start_question ? "" : (self.appdata.was_correct ? "checkmark" : "xmark"))
+                            .foregroundColor(self.appdata.was_correct ? .green : .red)
+                            .font(Font.system(.title).bold())
+                        Text(self.appdata.current_question == self.appdata.start_question ? "" : (self.appdata.was_correct ? "Correct!" : "Wrong"))
+                            .font(.title)
+                            .foregroundColor(self.appdata.was_correct ? .green : .red)
+                            .bold()
+                    }
                     
                     Divider()
                     
                     VStack {
-                        Text("Statistics")
-                            .font(.title)
+                        HStack {
+                            Image(systemName: "chart.pie")
+                                .font(.title)
+                            Text("Stats")
+                                .font(.title)
+                        }
                         
                         RoundedRectangle(cornerRadius: 24)
                         .frame(width: 336, height: 48)
@@ -125,31 +145,39 @@ struct ContentView: View {
                                 }
                             }
                         )
+                    
+                        Spacer()
+                        RoundedRectangle(cornerRadius: 16)
+                            .frame(width: 128, height: 32)
+                            .foregroundColor(Color("Background"))
+                            .shadow(color: Color("Light Shadow"), radius: 8, x: -4, y: -4)
+                            .shadow(color: Color("Dark Shadow"), radius: 8, x: 4, y: 4)
+                            .overlay(
+                                Button(action: {
+                                    UserDefaults.standard.set(0, forKey: "questionNum")
+                                    UserDefaults.standard.set(0, forKey: "correctAnswers")
+                                }) {
+                                    Text("Reset Stats")
+                                        .foregroundColor(Color.red)
+                                        .bold()
+                                }
+                        )
+                        
+                        Text("This action cannot be undone.")
+                            .foregroundColor(Color.red)
                     }
                     .padding(.vertical)
                     
                     Spacer()
                     
-                    RoundedRectangle(cornerRadius: 16)
-                        .frame(width: 128, height: 32)
-                        .foregroundColor(Color("Background"))
-                        .shadow(color: Color("Light Shadow"), radius: 8, x: -4, y: -4)
-                        .shadow(color: Color("Dark Shadow"), radius: 8, x: 4, y: 4)
-                        .overlay(
-                            Button(action: {
-                                UserDefaults.standard.set(0, forKey: "questionNum")
-                                UserDefaults.standard.set(0, forKey: "correctAnswers")
-                            }) {
-                                Text("Reset Stats")
-                                    .foregroundColor(Color.red)
-                                    .bold()
-                            }
-                    )
-                    Text("This action cannot be undone.")
-                        .foregroundColor(Color.red)
-                    
-                    Spacer()
+                    HStack {
+                        Image(systemName: "c.circle")
+                            .font(.caption)
+                        Text("Tanay Nistala")
+                            .font(.caption)
+                    }
                 }
+                .offset(y: -16)
             }
         }
     }

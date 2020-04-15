@@ -15,6 +15,7 @@ struct QuestionView: View {
     
     @EnvironmentObject var appdata: AppData
     @State private var show_modal: Bool = false
+    @State private var show_alert: Bool = false
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     func getAnswer(option: String) {
@@ -34,9 +35,7 @@ struct QuestionView: View {
             self.appdata.was_time_up = false
         }
         
-        UserDefaults.standard.set(UserDefaults.standard.integer(forKey: "questionNum") + 1, forKey: "questionNum")
-        self.appdata.current_question += 1
-        self.appdata.show_question = false
+        show_alert = true
         return
     }
     
@@ -131,6 +130,13 @@ struct QuestionView: View {
                 }
                 .offset(y: 64)
                 .padding(.bottom)
+                .alert(isPresented: $show_alert) {
+                    Alert(title: Text(self.appdata.was_time_up ? "Time Up!" : (self.appdata.was_correct ? "Correct!" : "Wrong")), message: Text(self.appdata.was_correct ? "Great Job!" : "It was \(current_word.word)"), dismissButton: .default(Text("OK")) {
+                        UserDefaults.standard.set(UserDefaults.standard.integer(forKey: "questionNum") + 1, forKey: "questionNum")
+                        self.appdata.current_question += 1
+                        self.appdata.show_question.toggle()
+                    })
+                }
                 
     //            TextField("Enter Answer Here", text: $answer) {
     //                UIApplication.shared.keyWindow?.endEditing(true)
