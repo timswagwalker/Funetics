@@ -132,7 +132,7 @@ struct QuestionView: View {
                 .offset(y: 64)
                 .padding(.bottom)
                 .alert(isPresented: $show_alert) {
-                    Alert(title: Text(self.appdata.was_time_up ? "Time Up!" : (self.appdata.was_correct ? "Correct!" : "Wrong")), message: Text(self.appdata.was_correct ? "Great Job!" : "It was \(current_word.word)"), dismissButton: .default(Text("OK")) {
+                    Alert(title: Text(self.appdata.was_time_up ? "Time Up!" : (self.appdata.was_correct ? "Correct!" : "Wrong")), message: Text(self.appdata.was_correct ? "Great Job!" : "It was \(current_word.word)."), dismissButton: .default(Text("OK")) {
                         UserDefaults.standard.set(UserDefaults.standard.integer(forKey: "questionNum") + 1, forKey: "questionNum")
                         self.appdata.current_question += 1
                         self.appdata.show_question.toggle()

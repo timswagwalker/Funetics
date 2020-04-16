@@ -89,7 +89,7 @@ struct ContentView: View {
                             Image(systemName: "chart.pie")
                                 .font(.title)
                             Text("Stats")
-                                .font(.title)
+                                .font(Font.custom("OpenDyslexic-Bold", size: 32))
                         }
                         
                         RoundedRectangle(cornerRadius: 24)
