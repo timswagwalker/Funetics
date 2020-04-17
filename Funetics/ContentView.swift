@@ -50,7 +50,7 @@ struct ContentView: View {
                                 Text("Next Question")
                                     .font(.headline)
                                     .foregroundColor(self.appdata.current_question < self.appdata.words.count ? Color("Foreground") : .gray)
-                                Text("Question \(self.appdata.current_question + 1)")
+                                    Text("Question \(self.appdata.current_question + 1)")
                                     .font(.caption)
                                     .foregroundColor(self.appdata.current_question < self.appdata.words.count ? Color("Foreground") : .gray)
                                 }
@@ -90,7 +90,7 @@ struct ContentView: View {
                                 .font(.title)
                             Text("Stats")
                                 .font(Font.custom("OpenDyslexic-Bold", size: 32))
-                        }
+                        }.edgesIgnoringSafeArea(.vertical)
                         
                         RoundedRectangle(cornerRadius: 24)
                         .frame(width: 336, height: 48)
@@ -156,15 +156,14 @@ struct ContentView: View {
                                 Button(action: {
                                     UserDefaults.standard.set(0, forKey: "questionNum")
                                     UserDefaults.standard.set(0, forKey: "correctAnswers")
+                                    self.appdata.current_question = 0
+                                    self.appdata.correct_answers = 0
                                 }) {
                                     Text("Reset Stats")
                                         .foregroundColor(Color.red)
                                         .bold()
                                 }
                         )
-                        
-                        Text("This action cannot be undone.")
-                            .foregroundColor(Color.red)
                     }
                     .padding(.vertical)
                     
