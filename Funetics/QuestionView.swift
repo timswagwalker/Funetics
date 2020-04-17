@@ -58,10 +58,12 @@ struct QuestionView: View {
                                 .fontWeight(.bold)
                                 .foregroundColor(Color("Foreground"))
                                 .font(Font.custom("OpenDyslexic-Bold", size: 24))
+                                .offset(y: 64)
                             Text(current_word.question)
                                 .fontWeight(.bold)
                                 .foregroundColor(Color("Foreground"))
                                 .font(Font.custom("OpenDyslexic-Bold", size: 48))
+                            .offset(y: 64)
                             
                             ImageView(withURL: current_word.image_url)
                             .frame(width: 144, height: 144)
@@ -70,8 +72,8 @@ struct QuestionView: View {
                                 Circle().stroke(Color.white, lineWidth: 4))
                             .shadow(radius: 10)
                             .edgesIgnoringSafeArea(.top)
+                            .offset(y: 32)
                             }
-                        .offset(y: 32)
                     )
                     .edgesIgnoringSafeArea(.top)
                 
@@ -129,8 +131,7 @@ struct QuestionView: View {
                     }
                     .padding(.top, 4.0)
                 }
-                .offset(y: 64)
-                .padding(.bottom)
+                .offset(y: 48)
                 .alert(isPresented: $show_alert) {
                     Alert(title: Text(self.appdata.was_time_up ? "Time Up!" : (self.appdata.was_correct ? "Correct!" : "Wrong")), message: Text(self.appdata.was_correct ? "Great Job!" : "It was \(current_word.word)."), dismissButton: .default(Text("OK")) {
                         UserDefaults.standard.set(UserDefaults.standard.integer(forKey: "questionNum") + 1, forKey: "questionNum")
@@ -180,7 +181,7 @@ struct QuestionView: View {
                                 }
                             }
                     )
-                    .offset(y: 32)
+                    .offset(y: 8)
             }
         }
     }
