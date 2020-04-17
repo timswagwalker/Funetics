@@ -77,7 +77,7 @@ struct ContentView: View {
                             .foregroundColor(self.appdata.was_correct ? .green : .red)
                             .font(Font.system(.title).bold())
                         Text(self.appdata.current_question == self.appdata.start_question ? "" : (self.appdata.was_correct ? "Correct!" : "Wrong"))
-                            .font(.title)
+                            .font(Font.custom("OpenDyslexic-Bold", size: 24))
                             .foregroundColor(self.appdata.was_correct ? .green : .red)
                             .bold()
                     }
