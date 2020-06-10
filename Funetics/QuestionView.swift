@@ -8,6 +8,7 @@
 
 import SwiftUI
 import Combine
+import AVFoundation
 
 struct QuestionView: View {
     @State var current_word: Word
@@ -65,6 +66,7 @@ struct QuestionView: View {
                                 .font(Font.custom("OpenDyslexic-Bold", size: 48))
                             .offset(y: 64)
                             
+                            Button(action: {playSound(sound: "testaudio", audioType: "mp3")}) {
                             ImageView(withURL: current_word.image_url)
                             .frame(width: 144, height: 144)
                             .clipShape(Circle())
@@ -74,6 +76,7 @@ struct QuestionView: View {
                             .edgesIgnoringSafeArea(.top)
                             .offset(y: 32)
                             }
+                        }
                     )
                     .edgesIgnoringSafeArea(.top)
                 

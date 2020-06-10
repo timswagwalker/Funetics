@@ -21,6 +21,8 @@
 		11905E552430BDD70062B978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11905E542430BDD70062B978 /* Assets.xcassets */; };
 		11905E582430BDD70062B978 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11905E572430BDD70062B978 /* Preview Assets.xcassets */; };
 		11905E5B2430BDD70062B978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11905E592430BDD70062B978 /* LaunchScreen.storyboard */; };
+		11BACAFA245EBC4B0025F0B7 /* testaudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11BACAF9245EBC4B0025F0B7 /* testaudio.mp3 */; };
+		11BACAFC245EBFC30025F0B7 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BACAFB245EBFC30025F0B7 /* PlaySound.swift */; };
 		11EAED26243352BA004EABD8 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 11EAED25243352BA004EABD8 /* URLImage */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		11905E572430BDD70062B978 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11905E5A2430BDD70062B978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11905E5C2430BDD70062B978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11BACAF9245EBC4B0025F0B7 /* testaudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = testaudio.mp3; sourceTree = "<group>"; };
+		11BACAFB245EBFC30025F0B7 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +78,11 @@
 		11905E4A2430BDD60062B978 /* Funetics */ = {
 			isa = PBXGroup;
 			children = (
+				11BACAF9245EBC4B0025F0B7 /* testaudio.mp3 */,
 				11905E4B2430BDD60062B978 /* AppDelegate.swift */,
 				11905E4D2430BDD60062B978 /* SceneDelegate.swift */,
 				117995972430BE4D00AE4C08 /* QuestionView.swift */,
+				11BACAFB245EBFC30025F0B7 /* PlaySound.swift */,
 				1179959A2430BE4D00AE4C08 /* SyllableList.swift */,
 				117995962430BE4D00AE4C08 /* SyllableRow.swift */,
 				117995992430BE4D00AE4C08 /* Words.json */,
@@ -168,6 +174,7 @@
 				11905E5B2430BDD70062B978 /* LaunchScreen.storyboard in Resources */,
 				1179959E2430BE4D00AE4C08 /* Words.json in Resources */,
 				11905E582430BDD70062B978 /* Preview Assets.xcassets in Resources */,
+				11BACAFA245EBC4B0025F0B7 /* testaudio.mp3 in Resources */,
 				115D875224472BEE007F684F /* OpenDyslexic-Regular.otf in Resources */,
 				11905E552430BDD70062B978 /* Assets.xcassets in Resources */,
 				115D875124472BEE007F684F /* OpenDyslexic-Bold.otf in Resources */,
@@ -182,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11905E4C2430BDD60062B978 /* AppDelegate.swift in Sources */,
+				11BACAFC245EBFC30025F0B7 /* PlaySound.swift in Sources */,
 				1179959F2430BE4D00AE4C08 /* SyllableList.swift in Sources */,
 				11905E4E2430BDD60062B978 /* SceneDelegate.swift in Sources */,
 				11905E532430BDD60062B978 /* ContentView.swift in Sources */,
@@ -336,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanaynistala.funetics;
+				PRODUCT_BUNDLE_IDENTIFIER = tanaynistala.funetics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -360,7 +368,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanaynistala.funetics;
+				PRODUCT_BUNDLE_IDENTIFIER = tanaynistala.funetics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
