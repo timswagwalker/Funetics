@@ -57,14 +57,8 @@
         "id": 7,
         "word": "bird",
         "question": "b_rd",
-        "optionA": "a",
-        "optionB": "e",
-        "optionC": "i",
-        "optionD": "u",
-        "audioA": "a",
-        "audioB": "e",
-        "audioC": "i",
-        "audioD": "u",
+        "options": ["a", "e", "i", "u"],
+        "audio": ["a", "e", "i", "u"],
         "correctOption": 3,
         "imageURL": "https://i.postimg.cc/4dcHdrLZ/Funetics-Images-007.png"
     },
@@ -186,3 +180,4 @@
         "imageURL": "https://i.postimg.cc/wM6xpPnw/Funetics-Images-020.png"
     }
 ]
+
