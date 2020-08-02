@@ -5,7 +5,7 @@
         "question": "c_t",
         "options": ["a", "e", "i", "o"],
         "audio": ["a", "e", "i", "o"],
-        "correctOption": 1,
+        "correctOption": 0,
         "imageURL": "https://i.postimg.cc/05m72JFm/Funetics-Images-001.png"
     },
     {
@@ -14,7 +14,7 @@
         "question": "h_t",
         "options": ["a", "e", "i", "o"],
         "audio": ["a", "e", "i", "o"],
-        "correctOption": 1,
+        "correctOption": 0,
         "imageURL": "https://i.postimg.cc/pXJ8KM2L/Funetics-Images-002.png"
     },
     {
@@ -23,7 +23,7 @@
         "question": "p_g",
         "options": ["a", "e", "i", "o"],
         "audio": ["a", "e", "i", "o"],
-        "correctOption": 3,
+        "correctOption": 2,
         "imageURL": "https://i.postimg.cc/bwYnTVJH/Funetics-Images-003.png"
     },
     {
@@ -32,7 +32,7 @@
         "question": "b_d",
         "options": ["a", "e", "o", "u"],
         "audio": ["a", "e", "o", "u"],
-        "correctOption": 2,
+        "correctOption": 1,
         "imageURL": "https://i.postimg.cc/pL0F1Q5N/Funetics-Images-004.png"
     },
     {
@@ -41,7 +41,7 @@
         "question": "ch__r",
         "options": ["ay", "ae", "ai", "ei"],
         "audio": ["ay", "ae", "ai", "ei"],
-        "correctOption": 3,
+        "correctOption": 2,
         "imageURL": "https://i.postimg.cc/FK7Ltf0Y/Funetics-Images-005.png"
     },
     {
@@ -50,7 +50,7 @@
         "question": "__r",
         "options": ["ay", "ae", "ea", "ei"],
         "audio": ["ay", "ae", "ea", "ei"],
-        "correctOption": 3,
+        "correctOption": 2,
         "imageURL": "https://i.postimg.cc/q7SCpkGj/Funetics-Images-006.png"
     },
     {
@@ -59,7 +59,7 @@
         "question": "b_rd",
         "options": ["a", "e", "i", "u"],
         "audio": ["a", "e", "i", "u"],
-        "correctOption": 3,
+        "correctOption": 2,
         "imageURL": "https://i.postimg.cc/4dcHdrLZ/Funetics-Images-007.png"
     },
     {
@@ -68,7 +68,7 @@
         "question": "c_p",
         "options": ["a", "e", "o", "u"],
         "audio": ["a", "e", "o", "u"],
-        "correctOption": 4,
+        "correctOption": 3,
         "imageURL": "https://i.postimg.cc/MH8MjdNB/Funetics-Images-008.png"
     },
     {
@@ -77,7 +77,7 @@
         "question": "p__",
         "options": ["ae", "ay", "ei", "ie"],
         "audio": ["ae", "ay", "ei", "ie"],
-        "correctOption": 4,
+        "correctOption": 3,
         "imageURL": "https://i.postimg.cc/yxXJh0Cb/Funetics-Images-009.png"
     },
     {
@@ -86,7 +86,7 @@
         "question": "s_n",
         "options": ["a", "e", "o", "u"],
         "audio": ["a", "e", "o", "u"],
-        "correctOption": 4,
+        "correctOption": 3,
         "imageURL": "https://i.postimg.cc/bYQ2jfS9/Funetics-Images-010.png"
     },
     {
@@ -95,7 +95,7 @@
         "question": "sh__",
         "options": ["eu", "oe", "oo", "ou"],
         "audio": ["eu", "oe", "oo", "ou"],
-        "correctOption": 2,
+        "correctOption": 1,
         "imageURL": "https://i.postimg.cc/pLd989Gs/Funetics-Images-011.png"
     },
     {
@@ -104,7 +104,7 @@
         "question": "m__n",
         "options": ["ao", "oo", "ou", "uu"],
         "audio": ["ao", "oo", "ou", "uu"],
-        "correctOption": 2,
+        "correctOption": 1,
         "imageURL": "https://i.postimg.cc/bwFZRz4p/Funetics-Images-012.png"
     },
     {
@@ -113,7 +113,7 @@
         "question": "sh_rt",
         "options": ["a", "e", "i", "u"],
         "audio": ["a", "e", "i", "u"],
-        "correctOption": 3,
+        "correctOption": 2,
         "imageURL": "https://i.postimg.cc/k56B10d8/Funetics-Images-013.png"
     },
     {
@@ -122,7 +122,7 @@
         "question": "m_p",
         "options": ["a", "e", "o", "u"],
         "audio": ["a", "e", "o", "u"],
-        "correctOption": 1,
+        "correctOption": 0,
         "imageURL": "https://i.postimg.cc/hjVhgVvt/Funetics-Images-014.png"
     },
     {
@@ -131,7 +131,7 @@
         "question": "t__th",
         "options": ["oo", "ou", "uu", "wo"],
         "audio": ["oo", "ou", "uu", "wo"],
-        "correctOption": 1,
+        "correctOption": 0,
         "imageURL": "https://i.postimg.cc/wMHMB3Rc/Funetics-Images-015.png"
     },
     {
@@ -140,7 +140,7 @@
         "question": "d_g",
         "options": ["a", "e", "i", "o"],
         "audio": ["a", "e", "i", "o"],
-        "correctOption": 4,
+        "correctOption": 3,
         "imageURL": "https://i.postimg.cc/Kcr4H7C9/Funetics-Images-016.png"
     },
     {
@@ -149,7 +149,7 @@
         "question": "cr__n",
         "options": ["au", "aw", "ou", "ow"],
         "audio": ["au", "aw", "ou", "ow"],
-        "correctOption": 4,
+        "correctOption": 3,
         "imageURL": "https://i.postimg.cc/sg82hTZ2/Funetics-Images-017.png"
     },
     {
@@ -158,7 +158,7 @@
         "question": "l_mp",
         "options": ["a", "e", "i", "u"],
         "audio": ["a", "e", "i", "u"],
-        "correctOption": 1,
+        "correctOption": 0,
         "imageURL": "https://i.postimg.cc/G2nhM9Kw/Funetics-Images-018.png"
     },
     {
@@ -167,7 +167,7 @@
         "question": "cl_ck",
         "options": ["a", "i", "o", "u"],
         "audio": ["a", "i", "o", "u"],
-        "correctOption": 3,
+        "correctOption": 2,
         "imageURL": "https://i.postimg.cc/85dkxDXF/Funetics-Images-019.png"
     },
     {
@@ -180,4 +180,3 @@
         "imageURL": "https://i.postimg.cc/wM6xpPnw/Funetics-Images-020.png"
     }
 ]
-
