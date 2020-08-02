@@ -11,8 +11,8 @@
         "audioB": "e",
         "audioC": "i",
         "audioD": "o",
-        "correct_option": "A",
-        "image_url": "https://i.postimg.cc/05m72JFm/Funetics-Images-001.png"
+        "correctOption": "A",
+        "imageURL": "https://i.postimg.cc/05m72JFm/Funetics-Images-001.png"
     },
     {
         "id": 2,
@@ -26,8 +26,8 @@
         "audioB": "e",
         "audioC": "i",
         "audioD": "o",
-        "correct_option": "A",
-        "image_url": "https://i.postimg.cc/pXJ8KM2L/Funetics-Images-002.png"
+        "correctOption": "A",
+        "imageURL": "https://i.postimg.cc/pXJ8KM2L/Funetics-Images-002.png"
     },
     {
         "id": 3,
@@ -41,8 +41,8 @@
         "audioB": "e",
         "audioC": "i",
         "audioD": "o",
-        "correct_option": "C",
-        "image_url": "https://i.postimg.cc/bwYnTVJH/Funetics-Images-003.png"
+        "correctOption": "C",
+        "imageURL": "https://i.postimg.cc/bwYnTVJH/Funetics-Images-003.png"
     },
     {
         "id": 4,
@@ -56,8 +56,8 @@
         "audioB": "e",
         "audioC": "o",
         "audioD": "u",
-        "correct_option": "B",
-        "image_url": "https://i.postimg.cc/pL0F1Q5N/Funetics-Images-004.png"
+        "correctOption": "B",
+        "imageURL": "https://i.postimg.cc/pL0F1Q5N/Funetics-Images-004.png"
     },
     {
         "id": 5,
@@ -71,8 +71,8 @@
         "audioB": "ae",
         "audioC": "ai",
         "audioD": "ei",
-        "correct_option": "C",
-        "image_url": "https://i.postimg.cc/FK7Ltf0Y/Funetics-Images-005.png"
+        "correctOption": "C",
+        "imageURL": "https://i.postimg.cc/FK7Ltf0Y/Funetics-Images-005.png"
     },
     {
         "id": 6,
@@ -86,8 +86,8 @@
         "audioB": "ae",
         "audioC": "ea",
         "audioD": "ei",
-        "correct_option": "C",
-        "image_url": "https://i.postimg.cc/q7SCpkGj/Funetics-Images-006.png"
+        "correctOption": "C",
+        "imageURL": "https://i.postimg.cc/q7SCpkGj/Funetics-Images-006.png"
     },
     {
         "id": 7,
@@ -101,8 +101,8 @@
         "audioB": "e",
         "audioC": "i",
         "audioD": "u",
-        "correct_option": "C",
-        "image_url": "https://i.postimg.cc/4dcHdrLZ/Funetics-Images-007.png"
+        "correctOption": "C",
+        "imageURL": "https://i.postimg.cc/4dcHdrLZ/Funetics-Images-007.png"
     },
     {
         "id": 8,
@@ -116,8 +116,8 @@
         "audioB": "e",
         "audioC": "o",
         "audioD": "u",
-        "correct_option": "D",
-        "image_url": "https://i.postimg.cc/MH8MjdNB/Funetics-Images-008.png"
+        "correctOption": "D",
+        "imageURL": "https://i.postimg.cc/MH8MjdNB/Funetics-Images-008.png"
     },
     {
         "id": 9,
@@ -131,8 +131,8 @@
         "audioB": "ay",
         "audioC": "ei",
         "audioD": "ie",
-        "correct_option": "D",
-        "image_url": "https://i.postimg.cc/yxXJh0Cb/Funetics-Images-009.png"
+        "correctOption": "D",
+        "imageURL": "https://i.postimg.cc/yxXJh0Cb/Funetics-Images-009.png"
     },
     {
         "id": 10,
@@ -146,8 +146,8 @@
         "audioB": "e",
         "audioC": "o",
         "audioD": "u",
-        "correct_option": "D",
-        "image_url": "https://i.postimg.cc/bYQ2jfS9/Funetics-Images-010.png"
+        "correctOption": "D",
+        "imageURL": "https://i.postimg.cc/bYQ2jfS9/Funetics-Images-010.png"
     },
     {
         "id": 11,
@@ -161,8 +161,8 @@
         "audioB": "oe",
         "audioC": "oo",
         "audioD": "ou",
-        "correct_option": "B",
-        "image_url": "https://i.postimg.cc/pLd989Gs/Funetics-Images-011.png"
+        "correctOption": "B",
+        "imageURL": "https://i.postimg.cc/pLd989Gs/Funetics-Images-011.png"
     },
     {
         "id": 12,
@@ -176,8 +176,8 @@
         "audioB": "oo",
         "audioC": "ou",
         "audioD": "uu",
-        "correct_option": "B",
-        "image_url": "https://i.postimg.cc/bwFZRz4p/Funetics-Images-012.png"
+        "correctOption": "B",
+        "imageURL": "https://i.postimg.cc/bwFZRz4p/Funetics-Images-012.png"
     },
     {
         "id": 13,
@@ -191,8 +191,8 @@
         "audioB": "e",
         "audioC": "i",
         "audioD": "u",
-        "correct_option": "C",
-        "image_url": "https://i.postimg.cc/k56B10d8/Funetics-Images-013.png"
+        "correctOption": "C",
+        "imageURL": "https://i.postimg.cc/k56B10d8/Funetics-Images-013.png"
     },
     {
         "id": 14,
@@ -206,8 +206,8 @@
         "audioB": "e",
         "audioC": "o",
         "audioD": "u",
-        "correct_option": "A",
-        "image_url": "https://i.postimg.cc/hjVhgVvt/Funetics-Images-014.png"
+        "correctOption": "A",
+        "imageURL": "https://i.postimg.cc/hjVhgVvt/Funetics-Images-014.png"
     },
     {
         "id": 15,
@@ -221,8 +221,8 @@
         "audioB": "ou",
         "audioC": "uu",
         "audioD": "wo",
-        "correct_option": "A",
-        "image_url": "https://i.postimg.cc/wMHMB3Rc/Funetics-Images-015.png"
+        "correctOption": "A",
+        "imageURL": "https://i.postimg.cc/wMHMB3Rc/Funetics-Images-015.png"
     },
     {
         "id": 16,
@@ -236,8 +236,8 @@
         "audioB": "e",
         "audioC": "i",
         "audioD": "o",
-        "correct_option": "D",
-        "image_url": "https://i.postimg.cc/Kcr4H7C9/Funetics-Images-016.png"
+        "correctOption": "D",
+        "imageURL": "https://i.postimg.cc/Kcr4H7C9/Funetics-Images-016.png"
     },
     {
         "id": 17,
@@ -251,8 +251,8 @@
         "audioB": "aw",
         "audioC": "ou",
         "audioD": "ow",
-        "correct_option": "D",
-        "image_url": "https://i.postimg.cc/sg82hTZ2/Funetics-Images-017.png"
+        "correctOption": "D",
+        "imageURL": "https://i.postimg.cc/sg82hTZ2/Funetics-Images-017.png"
     },
     {
         "id": 18,
@@ -266,8 +266,8 @@
         "audioB": "e",
         "audioC": "i",
         "audioD": "u",
-        "correct_option": "A",
-        "image_url": "https://i.postimg.cc/G2nhM9Kw/Funetics-Images-018.png"
+        "correctOption": "A",
+        "imageURL": "https://i.postimg.cc/G2nhM9Kw/Funetics-Images-018.png"
     },
     {
         "id": 19,
@@ -281,8 +281,8 @@
         "audioB": "i",
         "audioC": "o",
         "audioD": "u",
-        "correct_option": "C",
-        "image_url": "https://i.postimg.cc/85dkxDXF/Funetics-Images-019.png"
+        "correctOption": "C",
+        "imageURL": "https://i.postimg.cc/85dkxDXF/Funetics-Images-019.png"
     },
     {
         "id": 20,
@@ -296,7 +296,8 @@
         "audioB": "e",
         "audioC": "i",
         "audioD": "u",
-        "correct_option": "A",
-        "image_url": "https://i.postimg.cc/wM6xpPnw/Funetics-Images-020.png"
+        "correctOption": "A",
+        "imageURL": "https://i.postimg.cc/wM6xpPnw/Funetics-Images-020.png"
     }
 ]
+
